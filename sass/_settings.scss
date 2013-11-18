@@ -898,7 +898,7 @@ $header-font-color: $base-grey;
 
 // We use these to control the background and border styles
 
-// $panel-bg: darken(#fff, 5%);
+$panel-bg: $base-grey;
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
@@ -914,7 +914,7 @@ $header-font-color: $base-grey;
 
 // We use these to set default font colors
 
-// $panel-font-color: #333;
+$panel-font-color: $base-yellow;
 // $panel-font-color-alt: #fff;
 
 // $panel-header-adjust: true;

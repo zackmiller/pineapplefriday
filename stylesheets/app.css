@@ -6491,10 +6491,10 @@ ul.pagination li {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #d9d9d9;
+  border-color: #575558;
   margin-bottom: 1.25em;
   padding: 1.25em;
-  background: #f2f2f2;
+  background: #716e72;
 }
 /* line 44, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_panels.scss */
 .panel > :first-child {
@@ -6504,9 +6504,9 @@ ul.pagination li {
 .panel > :last-child {
   margin-bottom: 0;
 }
-/* line 50, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_panels.scss */
+/* line 51, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_panels.scss */
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
-  color: #333333;
+  color: white;
 }
 /* line 54, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_panels.scss */
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
