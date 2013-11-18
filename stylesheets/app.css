@@ -2,11 +2,11 @@
 @import url(fonts/ostrich-sans.css);
 /* line 28, ../sass/_theme.scss */
 .header .panel {
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.70711, M12=-0.70711, M21=0.70711, M22=0.70711);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.70711, M12=-0.70711, M21=0.70711, M22=0.70711)";
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969)";
   zoom: 1;
   margin-bottom: 0;
   border: none;
