@@ -3,6 +3,11 @@
 /* line 17, ../sass/_theme.scss */
 .header .panel {
   margin-bottom: 0;
+  border: none;
+}
+/* line 20, ../sass/_theme.scss */
+.header .panel .h1 {
+  font-size: 8em;
 }
 
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
