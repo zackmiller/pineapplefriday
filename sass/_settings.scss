@@ -2,6 +2,8 @@
 // Foundation Variables
 //
 
+@import "theme";
+
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
 $base-font-size: 100% !default;
@@ -63,8 +65,8 @@ $em-base: 16px !default;
 
 $default-float: left;
 
-$body-bg: #F4AD25;
-$body-font-color: #8B4F14;
+$body-bg: $base-orange;
+$body-font-color: $base-brown;
 $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
@@ -175,7 +177,7 @@ $body-font-style: normal;
 $header-font-family: "Ostrich Sans", Courier New, Helvetica, Arial, sans-serif;
 $header-font-weight: normal;
 $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: $base-grey;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
