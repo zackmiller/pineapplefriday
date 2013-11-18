@@ -456,7 +456,7 @@ body {
 /* line 300, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_global.scss */
 body {
   background: #f4ad25;
-  color: #222222;
+  color: #8b4f14;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -2063,7 +2063,7 @@ p aside {
 /* Default header styles */
 /* line 182, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Ostrich Sans", Georgia, Helvetica, Arial, sans-serif;
+  font-family: "Ostrich Sans", Courier New, Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -2222,7 +2222,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #8b4f14;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
