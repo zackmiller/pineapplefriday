@@ -461,7 +461,7 @@ body {
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
   line-height: 1;
   position: relative;
   cursor: default;
@@ -7302,4 +7302,15 @@ a.th {
 /* line 148, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown.scss */
 .f-dropdown.large {
   max-width: 800px;
+}
+
+@font-face {
+  font-family: "Ostrich Sans";
+  src: url('/stylesheets/fonts/fonts/ostrich-sans/webfonts/ostrich-regular.eot');
+  src: url('/stylesheets/fonts/fonts/ostrich-sans/webfonts/ostrich-regular.eot?#iefix') format('eot'), url('/stylesheets/fonts/fonts/ostrich-sans/webfonts/ostrich-regular.woff') format('woff'), url('/stylesheets/fonts/fonts/ostrich-sans/webfonts/ostrich-regular.ttf') format('truetype'), url('/stylesheets/fonts/fonts/ostrich-sans/webfonts/ostrich-regular.svg') format('svg');
+}
+
+/* line 12, ../sass/_theme.scss */
+h2 {
+  font-family: "Ostrich Sans";
 }
