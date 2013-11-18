@@ -6,7 +6,7 @@
   border: none;
 }
 /* line 20, ../sass/_theme.scss */
-.header .panel .h1 {
+.header .panel h1 {
   font-size: 8em;
 }
 
