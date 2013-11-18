@@ -7306,8 +7306,8 @@ a.th {
 
 @font-face {
   font-family: "Ostrich Sans";
-  src: url('/fonts/ostrich-sans/webfonts/ostrich-regular.eot');
-  src: url('/fonts/ostrich-sans/webfonts/ostrich-regular.eot?#iefix') format('eot'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.woff') format('woff'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.ttf') format('truetype'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.svg') format('svg');
+  src: url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.eot');
+  src: url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.eot?#iefix') format('eot'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.woff') format('woff'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.ttf') format('truetype'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.svg') format('svg');
 }
 
 /* line 12, ../sass/_theme.scss */
