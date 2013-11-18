@@ -24,6 +24,9 @@ $base-red: #BD4416;
 @import "fonts/ostrich-sans.css";
 
 // Styles
+.body {
+	padding-top: emCalc(100px);
+}
 .header {
 	@include rotate(-20deg);
 	.panel {
