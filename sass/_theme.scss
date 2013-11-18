@@ -1,16 +1,13 @@
 @import "compass/css3";
 
-@include font-face("Ostrich Sans", 
-	font-files(
-		"ostrich-sans/webfonts/ostrich-regular.woff",
-		"ostrich-sans/webfonts/ostrich-regular.ttf",
-		"ostrich-sans/webfonts/ostrich-regular.svg"
-	),
-	"ostrich-sans/webfonts/ostrich-regular.eot"
-);
+// Colors
 
 $base-grey: #716E72;
 $base-yellow: #F1D131;
 $base-orange: #F4AD25;
 $base-brown: #8B4F14;
 $base-red: #BD4416;
+
+// Typography
+
+@import "fonts/ostrich_sans.css";

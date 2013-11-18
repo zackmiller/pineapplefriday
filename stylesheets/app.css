@@ -1,10 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Ostrich Sans";
-  src: url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.eot');
-  src: url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.eot?#iefix') format('eot'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.woff') format('woff'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.ttf') format('truetype'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.svg') format('svg');
-}
-
+@import url(fonts/ostrich_sans.css);
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
