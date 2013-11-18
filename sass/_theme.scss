@@ -29,7 +29,6 @@ $base-red: #BD4416;
 }
 
 .header {
-	@include rotate(-20deg);
 	.panel {
 		margin-bottom: 0;
 		margin-top: -2px;
@@ -39,4 +38,9 @@ $base-red: #BD4416;
 			font-size: 10em;
 		}
 	}
+}
+
+.rotate-header {
+	@extend .header;
+	@include rotate(-20deg);
 }
