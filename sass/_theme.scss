@@ -11,3 +11,10 @@ $base-red: #BD4416;
 // Typography
 
 @import "fonts/ostrich-sans.css";
+
+// Styles
+.header {
+	.panel {
+		margin-bottom: 0;
+	}
+}
