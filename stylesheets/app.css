@@ -2,11 +2,10 @@
 @import url(fonts/ostrich-sans.css);
 /* line 27, ../sass/_theme.scss */
 .container {
-  padding-top: emCalc(75px);
-  padding-bottom: emCalc(75px);
+  padding: 75px 0px;
 }
 
-/* line 32, ../sass/_theme.scss */
+/* line 31, ../sass/_theme.scss */
 .header {
   -moz-transform: rotate(-20deg);
   -o-transform: rotate(-20deg);
@@ -15,14 +14,14 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969)";
   zoom: 1;
 }
-/* line 34, ../sass/_theme.scss */
+/* line 33, ../sass/_theme.scss */
 .header .panel {
   margin-bottom: 0;
-  margin-top: emCalc(-2px);
+  margin-top: -2px;
   border: none;
   padding: 20px 50px 0px 50px;
 }
-/* line 39, ../sass/_theme.scss */
+/* line 38, ../sass/_theme.scss */
 .header .panel h1 {
   font-size: 10em;
 }
