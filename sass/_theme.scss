@@ -25,8 +25,8 @@ $base-red: #BD4416;
 
 // Styles
 .header {
+	@include rotate(-20deg);
 	.panel {
-		@include rotate(-20deg);
 		margin-bottom: 0;
 		border: none;
 		padding: emCalc(20px) emCalc(50px) emCalc(0px) emCalc(50px);

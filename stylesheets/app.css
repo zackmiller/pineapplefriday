@@ -1,13 +1,16 @@
 @charset "UTF-8";
 @import url(fonts/ostrich-sans.css);
-/* line 28, ../sass/_theme.scss */
-.header .panel {
+/* line 27, ../sass/_theme.scss */
+.header {
   -moz-transform: rotate(-20deg);
   -o-transform: rotate(-20deg);
   -webkit-transform: rotate(-20deg);
   filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969)";
   zoom: 1;
+}
+/* line 29, ../sass/_theme.scss */
+.header .panel {
   margin-bottom: 0;
   border: none;
   padding: emCalc(20px) emCalc(50px) emCalc(0px) emCalc(50px);
