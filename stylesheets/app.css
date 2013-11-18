@@ -6,18 +6,17 @@
 }
 
 /* line 32, ../sass/_theme.scss */
-.header .panel, .rotate-header .panel {
+.header .panel, .mini-header .panel, .rotate-header .panel {
   margin-bottom: 0;
-  margin-top: -2px;
   border: none;
-  padding: 20px 50px 0px 50px;
-}
-/* line 38, ../sass/_theme.scss */
-.header h1, .rotate-header h1 {
-  font-size: 5em;
 }
 
-/* line 43, ../sass/_theme.scss */
+/* line 44, ../sass/_theme.scss */
+.mini-header h1 {
+  font-size: 10em;
+}
+
+/* line 47, ../sass/_theme.scss */
 .rotate-header {
   -moz-transform: rotate(-20deg);
   -o-transform: rotate(-20deg);
@@ -26,7 +25,12 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969)";
   zoom: 1;
 }
-/* line 46, ../sass/_theme.scss */
+/* line 50, ../sass/_theme.scss */
+.rotate-header .panel {
+  margin-top: -2px;
+  padding: 20px 50px 0px 50px;
+}
+/* line 54, ../sass/_theme.scss */
 .rotate-header h1 {
   font-size: 10em;
 }
