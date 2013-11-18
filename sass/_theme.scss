@@ -2,11 +2,11 @@
 
 @include font-face("Ostrich Sans", 
 	font-files(
-		"fonts/ostrich-sans/webfonts/ostrich-regular.woff",
-		"fonts/ostrich-sans/webfonts/ostrich-regular.ttf",
-		"fonts/ostrich-sans/webfonts/ostrich-regular.svg"
+		"ostrich-sans/webfonts/ostrich-regular.woff",
+		"ostrich-sans/webfonts/ostrich-regular.ttf",
+		"ostrich-sans/webfonts/ostrich-regular.svg"
 	),
-	"fonts/ostrich-sans/webfonts/ostrich-regular.eot"
+	"ostrich-sans/webfonts/ostrich-regular.eot"
 );
 
 h2 {
