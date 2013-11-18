@@ -7305,14 +7305,12 @@ a.th {
 }
 
 @font-face {
-  font-family: 'Ostrich Sans';
-  src: url("../fonts/ostrich-sans/webfonts/ostrich-regular.eot");
-  src: url("../fonts/ostrich-sans/ostrich-regular.woff") format("woff"), url("../fonts/ostrich-sans/ostrich-regular.ttf") format("truetype"), url("../fonts/ostrich-sans/ostrich-regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Ostrich Sans";
+  src: url('/fonts/ostrich-sans/webfonts/ostrich-regular.eot');
+  src: url('/fonts/ostrich-sans/webfonts/ostrich-regular.eot?#iefix') format('eot'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.woff') format('woff'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.ttf') format('truetype'), url('/stylesheets/fonts/ostrich-sans/webfonts/ostrich-regular.svg') format('svg');
 }
 
-/* line 14, ../sass/_theme.scss */
+/* line 12, ../sass/_theme.scss */
 h2 {
   font-family: "Ostrich Sans";
 }
