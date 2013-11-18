@@ -12,9 +12,9 @@
   border: none;
   padding: 20px 50px 0px 50px;
 }
-/* line 37, ../sass/_theme.scss */
-.header .panel h1, .rotate-header .panel h1 {
-  font-size: 10em;
+/* line 38, ../sass/_theme.scss */
+.header h1, .rotate-header h1 {
+  font-size: 8em;
 }
 
 /* line 43, ../sass/_theme.scss */
@@ -25,6 +25,10 @@
   filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969)";
   zoom: 1;
+}
+/* line 46, ../sass/_theme.scss */
+.rotate-header h1 {
+  font-size: 10em;
 }
 
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
