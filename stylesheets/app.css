@@ -1,11 +1,18 @@
 @charset "UTF-8";
 @import url(fonts/ostrich-sans.css);
-/* line 17, ../sass/_theme.scss */
+/* line 28, ../sass/_theme.scss */
 .header .panel {
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.70711, M12=-0.70711, M21=0.70711, M22=0.70711);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.70711, M12=-0.70711, M21=0.70711, M22=0.70711)";
+  zoom: 1;
   margin-bottom: 0;
   border: none;
+  padding: emCalc(20px) emCalc(50px) emCalc(0px) emCalc(50px);
 }
-/* line 20, ../sass/_theme.scss */
+/* line 33, ../sass/_theme.scss */
 .header .panel h1 {
   font-size: 10em;
 }

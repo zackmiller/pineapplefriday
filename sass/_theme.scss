@@ -1,5 +1,16 @@
 @import "compass/css3";
 
+// Mixins
+
+@mixin rotate($degrees) {
+   -moz-transform: rotate($degrees);  
+     -o-transform: rotate($degrees);  
+-webkit-transform: rotate($degrees);
+           filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+       -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
+             zoom: 1;
+}
+
 // Colors
 
 $base-grey: #716E72;
@@ -15,8 +26,10 @@ $base-red: #BD4416;
 // Styles
 .header {
 	.panel {
+		@include rotate(45deg);
 		margin-bottom: 0;
 		border: none;
+		padding: emCalc(20px) emCalc(50px) emCalc(0px) emCalc(50px);
 		h1 {
 			font-size: 10em;
 		}
