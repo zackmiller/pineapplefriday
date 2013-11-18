@@ -24,13 +24,16 @@ $base-red: #BD4416;
 @import "fonts/ostrich-sans.css";
 
 // Styles
-body {
-	padding-top: emCalc(100px);
+.container {
+	padding-top: emCalc(75px);
+	padding-bottom: emCalc(75px);
 }
+
 .header {
 	@include rotate(-20deg);
 	.panel {
 		margin-bottom: 0;
+		margin-top: emCalc(-2px);
 		border: none;
 		padding: 20px 50px 0px 50px;
 		h1 {
