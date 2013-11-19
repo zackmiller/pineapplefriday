@@ -61,6 +61,14 @@
   font-size: 1.4em;
 }
 
+/* line 86, ../sass/_theme.scss */
+.location {
+  margin: 8px;
+  padding: 8px;
+  border: 1px dashed;
+  border-color: #8b4f14;
+}
+
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
