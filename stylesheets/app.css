@@ -40,10 +40,11 @@
   color: #bd4416;
   font-family: "Ostrich Sans Inline";
   font-weight: normal;
+  margin-bottom: emCalc(10);
   font-size: 5em;
 }
 
-/* line 65, ../sass/_theme.scss */
+/* line 66, ../sass/_theme.scss */
 .mini-date {
   font-size: 2.5em;
   margin-top: -25px;
