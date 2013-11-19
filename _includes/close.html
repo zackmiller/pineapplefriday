@@ -7,45 +7,20 @@
   
 		<script src="js/foundation/foundation.js"></script>
 	
-		<script src="js/foundation/foundation.abide.js"></script>
-	
-		<script src="js/foundation/foundation.alerts.js"></script>
-	
-		<script src="js/foundation/foundation.clearing.js"></script>
-	
-		<script src="js/foundation/foundation.cookie.js"></script>
-	
-		<script src="js/foundation/foundation.dropdown.js"></script>
-	
-		<script src="js/foundation/foundation.forms.js"></script>
-	
-		<script src="js/foundation/foundation.interchange.js"></script>
-	
-		<script src="js/foundation/foundation.joyride.js"></script>
-	
-		<script src="js/foundation/foundation.magellan.js"></script>
-	
-		<script src="js/foundation/foundation.orbit.js"></script>
-	
-		<script src="js/foundation/foundation.placeholder.js"></script>
-	
 		<script src="js/foundation/foundation.reveal.js"></script>
-	
-		<script src="js/foundation/foundation.section.js"></script>
-	
-		<script src="js/foundation/foundation.tooltips.js"></script>
-	
-		<script src="js/foundation/foundation.topbar.js"></script>
-	
   
 		<script>
 			$(document).foundation();
 		</script>
 
+		<div id="sam" class="small reveal-modal">
+			<img src="img/sam.jpg" />
+			<a class="close-reveal-modal">x</a>
+		</div>
 		<script src="js/jwerty.js"></script>
 		<script>
 			jwerty.key('s,a,m', function(){
-				alert('Sam');
+				$('#sam').foundation('reveal','open');
 			});
 		</script>
 	</body>
