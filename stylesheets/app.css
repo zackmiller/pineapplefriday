@@ -1,22 +1,22 @@
 @charset "UTF-8";
 @import url(fonts/ostrich-sans.css);
-/* line 27, ../sass/_theme.scss */
+/* line 28, ../sass/_theme.scss */
 .container {
   padding: 25px 0px;
 }
 
-/* line 32, ../sass/_theme.scss */
+/* line 33, ../sass/_theme.scss */
 .header .panel, .mini-header .panel, .rotate-header .panel {
   margin-bottom: 0;
   border: none;
 }
 
-/* line 44, ../sass/_theme.scss */
+/* line 45, ../sass/_theme.scss */
 .mini-header h1 {
   font-size: 5em;
 }
 
-/* line 47, ../sass/_theme.scss */
+/* line 48, ../sass/_theme.scss */
 .rotate-header {
   -moz-transform: rotate(-20deg);
   -o-transform: rotate(-20deg);
@@ -25,14 +25,20 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969)";
   zoom: 1;
 }
-/* line 50, ../sass/_theme.scss */
+/* line 51, ../sass/_theme.scss */
 .rotate-header .panel {
   margin-top: -2px;
   padding: 20px 50px 0px 50px;
 }
-/* line 54, ../sass/_theme.scss */
+/* line 55, ../sass/_theme.scss */
 .rotate-header h1 {
   font-size: 10em;
+}
+
+/* line 58, ../sass/_theme.scss */
+.date {
+  color: #bd4416;
+  font-size: 4em;
 }
 
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
@@ -2147,7 +2153,7 @@ h6 {
 
 /* line 208, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 hr {
-  border: solid #dddddd;
+  border: solid #bd4416;
   border-width: 1px 0 0;
   clear: both;
   margin: 1.25em 0 1.1875em;
