@@ -55,7 +55,14 @@ $base-red: #BD4416;
 	h1 { font-size: 10em; }
 }
 
-.date {
+.date { 
 	color: $base-red;
-	font-size: 4em;
+	font-family: "Ostrich Sans Inline";
+	font-weight: normal;
+	font-size: 6em;
+}
+
+.mini-date {
+	@extend .date;
+	font-size: 3em;
 }

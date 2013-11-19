@@ -36,9 +36,16 @@
 }
 
 /* line 58, ../sass/_theme.scss */
-.date {
+.date, .mini-date {
   color: #bd4416;
-  font-size: 4em;
+  font-family: "Ostrich Sans Inline";
+  font-weight: normal;
+  font-size: 6em;
+}
+
+/* line 65, ../sass/_theme.scss */
+.mini-date {
+  font-size: 3em;
 }
 
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
