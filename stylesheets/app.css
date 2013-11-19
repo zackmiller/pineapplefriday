@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(fonts/ostrich-sans.css);
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Lora:400,700);
 /* line 29, ../sass/_theme.scss */
 .container {
   padding: 25px 0px;
