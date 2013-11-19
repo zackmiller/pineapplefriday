@@ -52,7 +52,7 @@
 }
 
 /* line 73, ../sass/_theme.scss */
-p, .subheader {
+.subheader, p {
   font-family: "Arvo", Times New Roman, serif;
 }
 
