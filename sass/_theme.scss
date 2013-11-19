@@ -59,10 +59,10 @@ $base-red: #BD4416;
 	color: $base-red;
 	font-family: "Ostrich Sans Inline";
 	font-weight: normal;
-	font-size: 6em;
+	font-size: 5em;
 }
 
 .mini-date {
 	@extend .date;
-	font-size: 3em;
+	font-size: 2.5em;
 }
