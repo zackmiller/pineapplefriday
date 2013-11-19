@@ -24,6 +24,10 @@ $base-red: #BD4416;
 @import "fonts/ostrich-sans.css";
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 
+.serif {
+	font-family: "Arvo", Times New Roman, serif;
+}
+
 // Styles
 
 .container {
@@ -70,6 +74,11 @@ $base-red: #BD4416;
 	margin-top: -25px;
 }
 
-.subheader, p {
-	font-family: "Arvo", Times New Roman, serif;
+.subheader {
+	@extend .serif;
+	font-size: 1.4em;
+}
+
+p {
+	@extend .serif;
 }

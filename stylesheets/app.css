@@ -1,23 +1,28 @@
 @charset "UTF-8";
 @import url(fonts/ostrich-sans.css);
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
-/* line 29, ../sass/_theme.scss */
+/* line 27, ../sass/_theme.scss */
+.serif, .subheader, p {
+  font-family: "Arvo", Times New Roman, serif;
+}
+
+/* line 33, ../sass/_theme.scss */
 .container {
   padding: 25px 0px;
 }
 
-/* line 34, ../sass/_theme.scss */
+/* line 38, ../sass/_theme.scss */
 .header .panel, .mini-header .panel, .rotate-header .panel {
   margin-bottom: 0;
   border: none;
 }
 
-/* line 46, ../sass/_theme.scss */
+/* line 50, ../sass/_theme.scss */
 .mini-header h1 {
   font-size: 5em;
 }
 
-/* line 49, ../sass/_theme.scss */
+/* line 53, ../sass/_theme.scss */
 .rotate-header {
   -moz-transform: rotate(-20deg);
   -o-transform: rotate(-20deg);
@@ -26,17 +31,17 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.93969, M12=--0.34202, M21=-0.34202, M22=0.93969)";
   zoom: 1;
 }
-/* line 52, ../sass/_theme.scss */
+/* line 56, ../sass/_theme.scss */
 .rotate-header .panel {
   margin-top: -2px;
   padding: 20px 50px 0px 50px;
 }
-/* line 56, ../sass/_theme.scss */
+/* line 60, ../sass/_theme.scss */
 .rotate-header h1 {
   font-size: 10em;
 }
 
-/* line 59, ../sass/_theme.scss */
+/* line 63, ../sass/_theme.scss */
 .date, .mini-date {
   color: #bd4416;
   font-family: "Ostrich Sans Inline";
@@ -45,15 +50,15 @@
   font-size: 5em;
 }
 
-/* line 67, ../sass/_theme.scss */
+/* line 71, ../sass/_theme.scss */
 .mini-date {
   font-size: 2.5em;
   margin-top: -25px;
 }
 
-/* line 73, ../sass/_theme.scss */
-.subheader, p {
-  font-family: "Arvo", Times New Roman, serif;
+/* line 77, ../sass/_theme.scss */
+.subheader {
+  font-size: 1.4em;
 }
 
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
