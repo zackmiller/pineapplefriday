@@ -63,8 +63,8 @@
 
 /* line 86, ../sass/_theme.scss */
 .location {
-  margin: 8px;
-  padding: 8px;
+  margin: 10px;
+  padding: 15px 0px;
   border: 1px dashed;
   border-color: #8b4f14;
 }
