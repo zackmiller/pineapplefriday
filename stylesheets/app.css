@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(fonts/ostrich-sans.css);
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Rokkitt:400,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 /* line 29, ../sass/_theme.scss */
 .container {
   padding: 25px 0px;
@@ -2052,7 +2052,7 @@ p.lead {
 /* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #bdbbbe;
+  color: #bd4416;
   font-weight: 300;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -2120,7 +2120,7 @@ p aside {
 /* Default header styles */
 /* line 182, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Ostrich Sans", Courier New, Helvetica, Arial, sans-serif;
+  font-family: "Ostrich Sans", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
   color: #716e72;

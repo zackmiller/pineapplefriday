@@ -174,7 +174,7 @@ $body-font-style: normal;
 
 // Control header font styles
 
-$header-font-family: "Ostrich Sans", Courier New, Helvetica, Arial, sans-serif;
+$header-font-family: "Ostrich Sans", Helvetica, Arial, sans-serif;
 $header-font-weight: bold;
 $header-font-style: normal;
 $header-font-color: $base-grey;
@@ -195,7 +195,7 @@ $header-font-color: $base-grey;
 // Control how subheaders are styled.
 
 // $subheader-line-height: 1.4;
-// $subheader-font-color: lighten($header-font-color, 30%);
+$subheader-font-color: $base-red;
 // $subheader-font-weight: 300;
 // $subheader-top-margin: .2em;
 // $subheader-bottom-margin: .5em;
