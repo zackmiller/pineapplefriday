@@ -90,3 +90,12 @@ p {
 	border-color: $base-brown;
 	background-color: $base-yellow;
 }
+
+#sam {
+	padding: 0px;
+	border: 2px solid;
+	border-color: $base-red;
+	.close-reveal-modal{
+		color: $base-red;
+	}
+}
