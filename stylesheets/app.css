@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 /* line 27, ../sass/_theme.scss */
 .serif, .subheader, p {
-  font-family: "Arvo", Times New Roman, serif;
+  font-family: "Arvo", Times New Roman, serif !important;
 }
 
 /* line 33, ../sass/_theme.scss */
