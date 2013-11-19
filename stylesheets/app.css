@@ -46,6 +46,7 @@
 /* line 65, ../sass/_theme.scss */
 .mini-date {
   font-size: 2.5em;
+  margin-top: -25px;
 }
 
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
