@@ -83,13 +83,13 @@ a:hover {
 }
 
 /* line 104, ../sass/_theme.scss */
-.reveal-modal .fill {
+.fill {
   padding: 0px;
   border: 2px solid;
   border-color: #bd4416;
 }
 /* line 108, ../sass/_theme.scss */
-.reveal-modal .fill .close-reveal-modal {
+.fill .close-reveal-modal {
   color: #bd4416;
 }
 
