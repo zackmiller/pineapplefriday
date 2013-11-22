@@ -85,10 +85,10 @@ p {
 
 a {
 	font-weight: bold;
-	color: $base-red;
+	color: $base-red !important;
 	border-bottom: 1px dotted;
 	&:hover{ 
-		color: $base-red;
+		color: $base-red !important;
 		border-bottom: 1px solid;
 	}
 }

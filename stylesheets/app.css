@@ -64,12 +64,12 @@
 /* line 86, ../sass/_theme.scss */
 a {
   font-weight: bold;
-  color: #bd4416;
+  color: #bd4416 !important;
   border-bottom: 1px dotted;
 }
 /* line 90, ../sass/_theme.scss */
 a:hover {
-  color: #bd4416;
+  color: #bd4416 !important;
   border-bottom: 1px solid;
 }
 
