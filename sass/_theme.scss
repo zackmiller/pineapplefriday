@@ -102,10 +102,7 @@ a {
 }
 
 .fill {
-	padding: 0px;
-	border: 2px solid;
-	border-color: $base-red;
-	.close-reveal-modal{
-		color: $base-red;
-	}
+	padding: 0px !important;
+	border: 2px solid !important;
+	border-color: $base-red !important;
 }

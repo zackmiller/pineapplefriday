@@ -84,13 +84,9 @@ a:hover {
 
 /* line 104, ../sass/_theme.scss */
 .fill {
-  padding: 0px;
-  border: 2px solid;
-  border-color: #bd4416;
-}
-/* line 108, ../sass/_theme.scss */
-.fill .close-reveal-modal {
-  color: #bd4416;
+  padding: 0px !important;
+  border: 2px solid !important;
+  border-color: #bd4416 !important;
 }
 
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
